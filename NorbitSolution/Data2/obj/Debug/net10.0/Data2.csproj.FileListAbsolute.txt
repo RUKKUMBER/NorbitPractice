@@ -1,0 +1,14 @@
+C:\Users\svaro\source\repos\NorbitSolution\Data2\bin\Debug\net10.0\Data2.exe
+C:\Users\svaro\source\repos\NorbitSolution\Data2\bin\Debug\net10.0\Data2.deps.json
+C:\Users\svaro\source\repos\NorbitSolution\Data2\bin\Debug\net10.0\Data2.runtimeconfig.json
+C:\Users\svaro\source\repos\NorbitSolution\Data2\bin\Debug\net10.0\Data2.dll
+C:\Users\svaro\source\repos\NorbitSolution\Data2\bin\Debug\net10.0\Data2.pdb
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\Data2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\Data2.AssemblyInfoInputs.cache
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\Data2.AssemblyInfo.cs
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\Data2.csproj.CoreCompileInputs.cache
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\Data2.dll
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\refint\Data2.dll
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\Data2.pdb
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\Data2.genruntimeconfig.cache
+C:\Users\svaro\source\repos\NorbitSolution\Data2\obj\Debug\net10.0\ref\Data2.dll

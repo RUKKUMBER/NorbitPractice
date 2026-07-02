@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Data1/Data1.csproj" />
+  <Project Path="Data2/Data2.csproj" />
+  <Project Path="OOP/OOP.csproj" Id="07613c9f-c4b6-46c8-b22e-0178c5bce966" />
+</Solution>
