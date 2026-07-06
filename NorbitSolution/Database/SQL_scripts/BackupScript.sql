@@ -1,0 +1,1 @@
+BACKUP DATABASE ComputerGames TO DISK = 'C:\Users\svaro\source\repos\NorbitSolution\Database\SQL_scripts\Backups\ComputerGames.bak' WITH FORMAT, INIT;

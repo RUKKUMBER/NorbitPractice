@@ -1,5 +1,8 @@
 <Solution>
+  <Project Path="Collections/Collections.csproj" Id="dfbc31b4-41aa-43d0-a521-b7a800cc757d" />
   <Project Path="Data1/Data1.csproj" />
   <Project Path="Data2/Data2.csproj" />
+  <Project Path="Database/Database.csproj" Id="6cfec236-cc7e-4dcb-83f2-16ef87db823e" />
+  <Project Path="FinalTask/FinalTask.csproj" Id="e729ba2f-5876-434b-b7d9-519d71cd9607" />
   <Project Path="OOP/OOP.csproj" Id="07613c9f-c4b6-46c8-b22e-0178c5bce966" />
 </Solution>

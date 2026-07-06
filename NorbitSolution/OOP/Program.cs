@@ -1,5 +1,4 @@
-﻿
-DiscountedProduct product = new DiscountedProduct();
+﻿DiscountedProduct product = new DiscountedProduct();
 Console.WriteLine(product.ToString());
 
 public class DiscountedProduct

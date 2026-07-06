@@ -1,0 +1,14 @@
+C:\Users\svaro\source\repos\NorbitSolution\Collections\bin\Debug\net10.0\Collections.exe
+C:\Users\svaro\source\repos\NorbitSolution\Collections\bin\Debug\net10.0\Collections.deps.json
+C:\Users\svaro\source\repos\NorbitSolution\Collections\bin\Debug\net10.0\Collections.runtimeconfig.json
+C:\Users\svaro\source\repos\NorbitSolution\Collections\bin\Debug\net10.0\Collections.dll
+C:\Users\svaro\source\repos\NorbitSolution\Collections\bin\Debug\net10.0\Collections.pdb
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\Collections.AssemblyInfoInputs.cache
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\Collections.AssemblyInfo.cs
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\Collections.csproj.CoreCompileInputs.cache
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\Collections.dll
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\refint\Collections.dll
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\Collections.pdb
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\Collections.genruntimeconfig.cache
+C:\Users\svaro\source\repos\NorbitSolution\Collections\obj\Debug\net10.0\ref\Collections.dll

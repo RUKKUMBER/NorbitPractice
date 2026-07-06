@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07613C9F-C4B6-46C8-B22E-0178C5BCE966}|OOP\\OOP.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07613C9F-C4B6-46C8-B22E-0178C5BCE966}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Migrations\\20260706214633_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalTask\\Migrations\\20260706214633_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\finaltask\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\finaltask\\dtos\\savecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\dtos\\savecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\finaltask\\finaltask.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\finaltask.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\finaltask\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\finaltask\\controllers\\expenseitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\controllers\\expenseitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\finaltask\\dtos\\savetransactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\dtos\\savetransactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\finaltask\\dtos\\saveexpenseitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\dtos\\saveexpenseitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|c:\\users\\svaro\\source\\repos\\norbitsolution\\finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E729BA2F-5876-434B-B7D9-519D71CD9607}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +51,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\OOP\\Program.cs",
-              "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\OOP\\Program.cs",
-              "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvycAAAAmAAAAAAAAAA==",
+              "Title": "20260706214633_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Migrations\\20260706214633_InitialCreate.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Migrations\\20260706214633_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Migrations\\20260706214633_InitialCreate.cs",
+              "RelativeToolTip": "FinalTask\\Migrations\\20260706214633_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T17:24:45.671Z",
+              "WhenOpened": "2026-07-06T21:46:33.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "FinalTask\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwDsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:18:12.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExpenseItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Controllers\\ExpenseItemsController.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Controllers\\ExpenseItemsController.cs",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Controllers\\ExpenseItemsController.cs",
+              "RelativeToolTip": "FinalTask\\Controllers\\ExpenseItemsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:17:04.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "FinalTask\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwE0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:15:29.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FinalTask",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\FinalTask.csproj",
+              "RelativeDocumentMoniker": "FinalTask\\FinalTask.csproj",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\FinalTask.csproj",
+              "RelativeToolTip": "FinalTask\\FinalTask.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-06T20:51:01.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Dtos\\SaveCategoryRequest.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Dtos\\SaveCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Dtos\\SaveCategoryRequest.cs",
+              "RelativeToolTip": "FinalTask\\Dtos\\SaveCategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:11:23.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaveTransactionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Dtos\\SaveTransactionRequest.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Dtos\\SaveTransactionRequest.cs",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Dtos\\SaveTransactionRequest.cs",
+              "RelativeToolTip": "FinalTask\\Dtos\\SaveTransactionRequest.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:13:52.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SaveExpenseItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Dtos\\SaveExpenseItemRequest.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Dtos\\SaveExpenseItemRequest.cs",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Dtos\\SaveExpenseItemRequest.cs",
+              "RelativeToolTip": "FinalTask\\Dtos\\SaveExpenseItemRequest.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA8wCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:12:45.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Program.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Program.cs",
+              "ToolTip": "C:\\Users\\svaro\\source\\repos\\NorbitSolution\\FinalTask\\Program.cs",
+              "RelativeToolTip": "FinalTask\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T20:31:16.187Z",
               "EditorCaption": ""
             }
           ]

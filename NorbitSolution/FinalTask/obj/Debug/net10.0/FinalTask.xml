@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FinalTask</name>
+    </assembly>
+    <members>
+        <member name="T:FinalTask.Controllers.CategoriesController">
+            <summary>
+            Управление категориями расходов.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.CategoriesController.GetAll">
+            <summary>
+            Получить все категории.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.CategoriesController.GetById(System.Int32)">
+            <summary>
+            Получить категорию по Id.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.CategoriesController.Create(FinalTask.Dtos.SaveCategoryRequest)">
+            <summary>
+            Создать новую категорию.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.CategoriesController.Update(System.Int32,FinalTask.Dtos.SaveCategoryRequest)">
+            <summary>
+            Обновить существующую категорию.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.CategoriesController.Delete(System.Int32)">
+            <summary>
+            Удалить категорию.
+            </summary>
+        </member>
+        <member name="T:FinalTask.Controllers.ExpenseItemsController">
+            <summary>
+            Управление статьями расходов.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.ExpenseItemsController.GetAll">
+            <summary>
+            Получить все статьи расходов.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.ExpenseItemsController.GetById(System.Int32)">
+            <summary>
+            Получить статью по Id.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.ExpenseItemsController.Create(FinalTask.Dtos.SaveExpenseItemRequest)">
+            <summary>
+            Создать новую статью расхода.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.ExpenseItemsController.Update(System.Int32,FinalTask.Dtos.SaveExpenseItemRequest)">
+            <summary>
+            Обновить статью расхода.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.ExpenseItemsController.Delete(System.Int32)">
+            <summary>
+            Удалить статью расхода.
+            </summary>
+        </member>
+        <member name="T:FinalTask.Controllers.TransactionsController">
+            <summary>
+            Управление транзакциями (фактическими расходами).
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.TransactionsController.GetAll">
+            <summary>
+            Получить все транзакции за всё время.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.TransactionsController.GetByDate(System.DateTime)">
+            <summary>
+            Получить транзакции за конкретный день.
+            </summary>
+            <param name="date">Дата в формате ГГГГ-ММ-ДД</param>
+        </member>
+        <member name="M:FinalTask.Controllers.TransactionsController.GetByMonth(System.Int32,System.Int32)">
+            <summary>
+            Получить транзакции за месяц.
+            </summary>
+            <param name="year">Год</param>
+            <param name="month">Месяц (1-12)</param>
+        </member>
+        <member name="M:FinalTask.Controllers.TransactionsController.GetById(System.Int32)">
+            <summary>
+            Получить транзакцию по Id.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.TransactionsController.Create(FinalTask.Dtos.SaveTransactionRequest)">
+            <summary>
+            Создать новую транзакцию.
+            Проверяет дневной лимит 1 млн руб. и активность статьи.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.TransactionsController.Update(System.Int32,FinalTask.Dtos.SaveTransactionRequest)">
+            <summary>
+            Обновить транзакцию.
+            Нельзя изменить статью расхода, если она стала неактивной после создания транзакции.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.TransactionsController.Delete(System.Int32)">
+            <summary>
+            Удалить транзакцию.
+            </summary>
+        </member>
+        <member name="M:FinalTask.Controllers.TransactionsController.GetSticker(System.DateTime)">
+            <summary>
+            Получить цвет стикера для заданного дня в зависимости от суммы трат.
+            </summary>
+            <param name="date">Дата в формате ГГГГ-ММ-ДД</param>
+            <returns>Объект с суммой и цветом (green, yellow, red).</returns>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveCategoryRequest.Name">
+            <summary>
+            Название категории (обязательно).
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveCategoryRequest.MonthlyBudget">
+            <summary>
+            Месячный бюджет.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveCategoryRequest.IsActive">
+            <summary>
+            Активна ли категория.
+            </summary>
+        </member>
+        <member name="T:FinalTask.Dtos.CategoryResponse">
+            <summary>
+            Ответ API с данными категории.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveExpenseItemRequest.Name">
+            <summary>
+            Название статьи (обязательно).
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveExpenseItemRequest.CategoryId">
+            <summary>
+            Id категории.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveExpenseItemRequest.IsActive">
+            <summary>
+            Активна ли статья.
+            </summary>
+        </member>
+        <member name="T:FinalTask.Dtos.ExpenseItemResponse">
+            <summary>
+            Ответ API с данными статьи расхода.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveTransactionRequest.Date">
+            <summary>
+            Дата транзакции (без времени).
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveTransactionRequest.Amount">
+            <summary>
+            Сумма (положительное число).
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveTransactionRequest.Comment">
+            <summary>
+            Комментарий.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Dtos.SaveTransactionRequest.ExpenseItemId">
+            <summary>
+            Id статьи расхода.
+            </summary>
+        </member>
+        <member name="T:FinalTask.Dtos.TransactionResponse">
+            <summary>
+            Ответ API с данными транзакции.
+            </summary>
+        </member>
+        <member name="T:FinalTask.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:FinalTask.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FinalTask.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FinalTask.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:FinalTask.Models.Category.Name">
+            <summary>
+            Название категории.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.Category.MonthlyBudget">
+            <summary>
+            Месячный бюджет в рублях.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.Category.IsActive">
+            <summary>
+            Признак активности категории.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.ExpenseItem.Name">
+            <summary>
+            Название статьи расхода.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.ExpenseItem.CategoryId">
+            <summary>
+            Идентификатор категории.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.ExpenseItem.IsActive">
+            <summary>
+            Признак активности статьи.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.Transaction.Date">
+            <summary>
+            Дата транзакции (без времени).
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.Transaction.Amount">
+            <summary>
+            Сумма расхода (положительное число).
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.Transaction.Comment">
+            <summary>
+            Комментарий.
+            </summary>
+        </member>
+        <member name="P:FinalTask.Models.Transaction.ExpenseItemId">
+            <summary>
+            Идентификатор статьи расхода.
+            </summary>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Type)">
+            <summary>
+            Generates a documentation comment ID for a type.
+            Example: T:Namespace.Outer+Inner`1 becomes T:Namespace.Outer.Inner`1
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Reflection.PropertyInfo)">
+            <summary>
+            Generates a documentation comment ID for a property.
+            Example: P:Namespace.ContainingType.PropertyName or for an indexer P:Namespace.ContainingType.Item(System.Int32)
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Type,System.String)">
+            <summary>
+            Generates a documentation comment ID for a property given its container type and property name.
+            Example: P:Namespace.ContainingType.PropertyName
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Reflection.MethodInfo)">
+            <summary>
+            Generates a documentation comment ID for a method (or constructor).
+            For example:
+              M:Namespace.ContainingType.MethodName(ParamType1,ParamType2)~ReturnType
+              M:Namespace.ContainingType.#ctor(ParamType)
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.GetTypeDocId(System.Type,System.Boolean,System.Boolean)">
+            <summary>
+            Generates a documentation ID string for a type.
+            This method handles nested types (replacing '+' with '.'),
+            generic types, arrays, pointers, by-ref types, and generic parameters.
+            The <paramref name="includeGenericArguments"/> flag controls whether
+            constructed generic type arguments are emitted, while <paramref name="omitGenericArity"/>
+            controls whether the generic arity marker (e.g. "`1") is appended.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.NormalizeDocId(System.String)">
+            <summary>
+            Normalizes a documentation comment ID to match the compiler-style format.
+            Strips the return type suffix for ordinary methods but retains it for conversion operators.
+            </summary>
+            <param name="docId">The documentation comment ID to normalize.</param>
+            <returns>The normalized documentation comment ID.</returns>
+        </member>
+    </members>
+</doc>
